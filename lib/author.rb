@@ -8,6 +8,6 @@ class Author
   end
 
   def posts
-    @@all? { |e|  }
+    @@all
   end
 end
