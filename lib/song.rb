@@ -12,5 +12,4 @@ class Song
     self.artist.nil? ? nil : self.artist.name
   end
 
-
 end
