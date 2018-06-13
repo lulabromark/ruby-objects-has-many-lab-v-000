@@ -9,7 +9,7 @@ class Song
 
   end
 
-  def artist_name(name = nil)
+  def artist_name
     self.artist.name
   end
 
