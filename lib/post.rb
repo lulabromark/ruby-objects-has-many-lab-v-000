@@ -5,7 +5,11 @@ def Post
 
   def initialize(title)
     @title = title
+    @@all < self.title
+  end
 
+  def all
+    @@all
   end
 
 end
