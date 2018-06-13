@@ -14,7 +14,7 @@ class Artist
   def add_song(song)
     @@all << song
     # song.artist = self
-    if song.artist != nil song.artist = self : nil
+    song.artist != nil ? song.artist = self : nil
   end
 
   def add_song_by_name(name)
